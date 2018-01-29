@@ -9,4 +9,7 @@ class ActiveSupport::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+  
+  include ApplicationHelper  # this allows us to use "full_title" methods in test suite
+  
 end
